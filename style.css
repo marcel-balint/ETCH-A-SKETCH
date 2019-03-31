@@ -1,49 +1,54 @@
 body {
-    background-color: rgb(66, 103, 216);
-    overflow-y: hidden;
-  }
-  #page{
-    position: relative;
-    border:0;
-  }
-  #container {
-    position:static;
-    max-width: 660px;
-    height: 590px;
-    background-color: rgb(91, 17, 160);
-    display: grid;
-    border: 10px solid rgb(13,216,214);
-    border-radius: 9px;
-    cursor:pointer;
-    margin-left:auto;
-    margin-right:auto;
-   }
-  div {
-    border: 1px solid #000;
-  }
-  
-  #buttons {
-    display: flex;
-    justify-content: center;
-    background-color: transparent;
-    border:0;
-  }
-  button {
-    border: transparent;
-    color: #000;
-    font-size: 19px;
-    font-weight: bold;
-    padding: 11px;
-    cursor: pointer;
-    background-color: rgb(13,216,236);
-    margin-left: 5px;
-    border-radius: 2px;
-    margin-bottom: 30px;
-  }
-  button:hover {
-    background-color: darkgray;
-  }
-  h1 {
-    text-align: center;
-    color: rgb(13,216,214);
-  }
+  background-color: rgb(28, 137, 158);
+  overflow-y: hidden;
+}
+
+#page {
+  position: relative;
+  border: 0;
+}
+
+#container {
+  position: static;
+  max-width: 660px;
+  height: 580px;
+  display: grid;
+  border: 10px solid rgb(13, 216, 214);
+  border-radius: 9px;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div {
+  border: 1px solid #000;
+}
+
+#buttons {
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+  border: 0;
+}
+
+button {
+  border: transparent;
+  color: #000;
+  font-size: 19px;
+  font-weight: bold;
+  padding: 11px;
+  cursor: pointer;
+  background-color: rgb(13, 216, 236);
+  margin-left: 5px;
+  border-radius: 2px;
+  margin-bottom: 30px;
+}
+
+button:hover {
+  background-color: darkgray;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(13, 216, 214);
+}
